@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 936px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* global style */
+
+.portfolio {
+    background: #F6F6F6;
+    padding-top: 112px;
+    padding-bottom: 96px;
+}
+
+
+
+.portfolio__title {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 47px;
+}
+
+.portfolio__img {
+    width: 100%;
+    min-width: 500px;
+    margin-bottom: 44px;
+}
+
+.portfolio__text {
+    font-family: 'Arial';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-decoration-line: underline;
+margin-bottom: 99px;
+}
