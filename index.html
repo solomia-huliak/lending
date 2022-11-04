@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,33 +11,228 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
+
 <body>
     <div class="wrapper">
+        <!--Header-->
+        <header class="header">
+            <div class="container header__container">
+                <nav>
+                    <div class="nav__header">
+                        <ul class="nav__bar">
+                            <li>
+                                <a href="" class="page_text" style="color:#828282;">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about-me_id" class="page_text" style="color:#828282;">
+                                    About me
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#skills_id" class="page_text" style="color:#828282;">
+                                    Skills
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#portfolio_id" class="page_text" style="color:#828282;">
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contacts_id" class="page_text" style="color:#828282;">
+                                    Contacts
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="header_content">
+                    <h1 class="h1__text">
+                        Denis Novik
+                    </h1>
+
+                    <p class="header__p">
+                        UX | UI designer
+                        24 years old, Minsk
+                    </p>
+
+
+                    <div class="language__span">
+                        <span style="color:#828282;">RU</span>
+                        |
+                        <span>ENG</span>
+                    </div>
+                </div>
+                <img src="./img/photo.jpg" alt="Photo">
+            </div>
+        </header>
+        <!--Header End-->
+
+
+
+        <!--section "about me"-->
+
+        <section class="about-me">
+            <div id="about-me_id" class="container about-me__container">
+                <h2 class="title title__about-me">
+                    About me
+                </h2>
+                <br>
+                <div class="about-me__text">
+                    <p>
+                        Hi, I'm Denis - UX/UI designer from Minsk.
+                    </p>
+                    <p>
+                        I'm interested in design and everything connected with it.
+                    </p>
+                    <br>
+                    <p>
+                        I'm studying at courses "Web and mobile design
+                        interfaces" in IT-Academy.
+                    </p>
+                    <br>
+                    <p>
+                        Ready to implement excellent projects
+                        with wonderful people.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--section "about me" end-->
+
+        <!--section "skills"-->
+
+        <section class="skills">
+            <div id="skills_id" class="container skills__container">
+                <h2 class="title skills__title">
+                    Skills
+                </h2>
+                <p>
+                    I work in such programs as
+                </p>
+                <div class="skills__img">
+                    <div class="skills__icon">
+                        <img class="skills__image" src="img/Ps.png" alt="skills">
+                        <p class="skills__text">
+                            Adobe
+                            <br>
+                        Photoshop
+                        </p>
+                        <img class="stars__icon" src="./img/Group 2.png" alt="4 stars">
+                    </div>
+
+                    <div class="skills__icon">
+                        <img class="skills__image" src="./img/Ai.png" alt="skills">
+                        <p class="skills__text">
+                            Adobe
+                            <br>
+                            Illustrator
+                        </p>
+                        <img class="stars__icon" src="./img/Group 3.png" alt="3 stars">
+                    </div>
+
+                    <div class="skills__icon">
+                        <img class="skills__image" src="./img/Ae.png" alt="skills">
+                        <p class="skills__text">
+                            Adobe 
+                            <br>
+                            After Effects
+                        </p>
+                        <img class="stars__icon" src="./img/Group 2.png" alt="4 stars">
+                    </div>
+
+                    <div class="skills__icon">
+                        <img class="skills__figma skills__image" src="./img/Figma.png" alt="skills">
+                        <p class="skills__text">
+                            Figma
+                        </p>
+                        <img class="stars__icon" src="./img/Group 2.png" alt="4 stars">
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--section "skills" end-->
+
+        <!--section "portfolio"-->
+
         <section class="portfolio">
-            <div class="container portfolio__container">
+            <div id="portfolio_id" class="container portfolio__container">
                 <h2 class="title portfolio__title">
                     Portfolio
                 </h2>
                 <div class="portfolio__img">
                     <img src="img/portfolio01.jpg" alt="portfolio" width="300">
                 </div>
-                <p class="portfolio__text">
+                <p class="page-text portfolio__text">
                     Online fashion store - Homepage
                 </p>
                 <div class="portfolio__img">
                     <img src="img/portfolio02.jpg" alt="portfolio" width="300">
                 </div>
-                <p class="portfolio__text">
+                <p class="page-text portfolio__text">
                     Reebok Store - Concept
                 </p>
                 <div class="portfolio__img">
                     <img src="img/portfolio03.jpg" alt="portfolio" width="300">
                 </div>
-                <p class="portfolio__text">
+                <p class="page-text portfolio__text">
                     Braun Landing Page - Concept
                 </p>
             </div>
         </section>
+
+        <!--section "portfolio" end-->
+
+        <!--footer-->
+        <footer class="footer">
+            <div id="contacts_id" class="container">
+                <h2 class="title contacts__title">Contacts</h2>
+                <p>
+                    Want to know more or just chat?
+                    <br>
+                    You are welcome!
+                </p>
+                <button class="message__button" name="message__button">Send message</button>
+                <div class="footer__icons">
+                    <ul class="footer__ul">
+                    <li>
+                        <a href="#"><img class="footer__img" src="./img/linkedin.png" alt="linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="footer__img" src="./img/inst.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="footer__img" src="./img/be.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="footer__img" src="./img/ball.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+                
+                <p class="footer__text">
+                    Like me on 
+                    <br>
+                    LinkedIn, Instagram, Behance, Dribble
+                </p>
+
+
+
+            </div>
+        </footer>
+        <!--footer end-->
+
     </div>
 </body>
+
 </html>
