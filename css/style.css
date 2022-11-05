@@ -39,7 +39,12 @@ line-height: 39px;
 }
 /* global style */
 
-.nav__bar {
+
+.section__color:nth-child(2n) {
+    background: #F6F6F6;
+}
+
+.header__navbar {
     display: flex;
     justify-content: space-between;
     padding: 27px 0;
@@ -47,12 +52,11 @@ line-height: 39px;
     color: #828282;
 }
 
-
 .header__container {
     padding-bottom: 104px;
 }
 
-.header_content {
+.header__content {
     display: flex;
     padding-top: 90px;
     padding-bottom: 43px;
@@ -74,7 +78,7 @@ line-height: 39px;
   
 }
 
-.language__span {
+.header__language {
     font-size: 16px;
 line-height: 18px;
     width: 100px;
@@ -82,17 +86,12 @@ line-height: 18px;
     margin-left: 230px;
 }
 
-
-
 .about-me__container {
     padding-top: 120px;
     padding-bottom: 107px;
-    background: #F6F6F6;
 }
 
-
-
-.title__about-me {
+.about-me__title {
 width: 156px;
 height: 43px;
 padding-bottom: 18px;
@@ -105,14 +104,6 @@ margin: 0 auto;
  margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
 .skills__title {
     margin-top: 91px;
     margin-bottom: 70px;
@@ -123,7 +114,6 @@ margin: 0 auto;
 line-height: 16px;
 color: #828282;
 }
-
 
 .skills__image {
     display: inline;
@@ -153,24 +143,6 @@ color: #828282;
     justify-content: space-evenly; 
 }
 
-
-
-
-
-
-
-
-
-
-
-.portfolio {
-    background: #F6F6F6;
-    
-    padding-bottom: 100px;
-}
-
-
-
 .portfolio__img {
     width: 100%;
     min-width: 500px;
@@ -184,7 +156,7 @@ color: #828282;
 
 .portfolio__text {
     margin-top: 45px;
-    margin-bottom: 99px;
+    padding-bottom: 99px;
     text-decoration-line: underline;
 }
 
@@ -202,22 +174,22 @@ color: #828282;
     height: 42px;
     border-radius: 20px;
     margin-bottom: 86px;
+    cursor: pointer;
 }
 
-.footer__icons {
-    display: flex;
-    justify-content: space-evenly; 
-}
 .footer__img {
     width: 40px;
     height: 40px;
-    margin-right:60px;
     margin-bottom: 45px;
+    /*display: flex;
+    justify-content: space-between;*/ 
 }
 
 .footer__ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+  
+  
 }
   
 .footer__text {
